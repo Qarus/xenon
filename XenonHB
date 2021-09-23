@@ -2,7 +2,7 @@
 
 print("Loading...")
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Xenon Hub V3.2";
+    Title = "Xenon Hub V3.1";
     Text = "Loading...",
     Duration = 5
 }) 
@@ -1244,7 +1244,7 @@ end
 
     local CollectDelay, CallbackDelay = 0, 0
 
-    ItemFarmTab:Label("Fixed By NukeVsCity")
+    ItemFarmTab:Label("Fixed By Qarus")
 
     ItemFarmTab:Seperator()
 
@@ -2412,7 +2412,7 @@ end
     end)
 
     Credits:Button("Copy Discord", "Copy the discord link to clipboard.", function()
-        setclipboard("https://discord.gg/wfyHYS8E2n")
+        setclipboard("https://discord.gg/xWXt8ZAPbC")
         game.StarterGui:SetCore("SendNotification", {
             Title = "script";
             Text = "Set to clipboard.",
